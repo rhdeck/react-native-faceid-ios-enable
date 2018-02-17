@@ -1,0 +1,30 @@
+{
+  "name": "react-native-faceid-ios-enable",
+  "version": "1.0.0",
+  "description": "Enable IOS FaceID by setting privacy text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "rnpm": {
+    "commands": {
+      "postlink": "node node_modules/react-native-faceid-ios-enable/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/rhdeck/react-native-microphone-ios-enable.git"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/react-native-camera-ios-enable/issues"
+  },
+  "homepage":
+    "https://github.com/rhdeck/react-native-microphone-ios-enable#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "plist": "^2.1.0"
+  }
+}
